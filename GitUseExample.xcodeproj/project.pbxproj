@@ -14,6 +14,7 @@
 		C4D4D73B19E9C6DD00D68064 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D4D73A19E9C6DD00D68064 /* Images.xcassets */; };
 		C4D4D73E19E9C6DD00D68064 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D4D73C19E9C6DD00D68064 /* LaunchScreen.xib */; };
 		C4D4D74A19E9C6DE00D68064 /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4D74919E9C6DE00D68064 /* GitUseExampleTests.m */; };
+		C4D4D75519E9CDC000D68064 /* MapForItenerary.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4D75419E9CDC000D68064 /* MapForItenerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C4D4D74319E9C6DE00D68064 /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D4D74819E9C6DE00D68064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4D4D74919E9C6DE00D68064 /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		C4D4D75319E9CDC000D68064 /* MapForItenerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItenerary.h; sourceTree = "<group>"; };
+		C4D4D75419E9CDC000D68064 /* MapForItenerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItenerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C4D4D73A19E9C6DD00D68064 /* Images.xcassets */,
 				C4D4D73C19E9C6DD00D68064 /* LaunchScreen.xib */,
 				C4D4D72D19E9C6DD00D68064 /* Supporting Files */,
+				C4D4D75319E9CDC000D68064 /* MapForItenerary.h */,
+				C4D4D75419E9CDC000D68064 /* MapForItenerary.m */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D4D75519E9CDC000D68064 /* MapForItenerary.m in Sources */,
 				C4D4D73619E9C6DD00D68064 /* ViewController.m in Sources */,
 				C4D4D73319E9C6DD00D68064 /* AppDelegate.m in Sources */,
 				C4D4D73019E9C6DD00D68064 /* main.m in Sources */,
